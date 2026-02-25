@@ -92,7 +92,7 @@ export default function Sidebar() {
                 </div>
                 <div>
                     <div style={{ fontSize: '1.1rem', fontWeight: 800, lineHeight: 1.2 }}>
-                        GSTR <span className="gradient-text">Pro</span>
+                        GST<span className="gradient-text">Desk</span>
                     </div>
                     <div style={{ fontSize: '0.7rem', color: 'var(--text-muted)' }}>GST Compliance</div>
                 </div>

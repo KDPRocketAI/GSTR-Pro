@@ -75,7 +75,7 @@ export default function UpgradePage() {
                 key: process.env.NEXT_PUBLIC_RAZORPAY_KEY_ID,
                 amount: orderData.amount,
                 currency: orderData.currency,
-                name: "GSTR Pro",
+                name: "GSTDesk",
                 description: `Upgrade to ${newPlan.toUpperCase()} Plan`,
                 order_id: orderData.orderId,
                 handler: async function (response: any) {

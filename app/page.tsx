@@ -284,7 +284,7 @@ export default function LandingPage() {
           fontSize: '0.85rem',
         }}
       >
-        © {new Date().getFullYear()} GSTR Pro. Built for Indian e-commerce sellers.
+        © {new Date().getFullYear()} GSTDesk. Built for Indian e-commerce sellers.
       </footer>
     </div>
   );

@@ -44,7 +44,7 @@ export default function LoginPage() {
                 </div>
                 <h1 style={{ fontSize: '1.5rem', fontWeight: 800 }}>Welcome back</h1>
                 <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', marginTop: '6px' }}>
-                    Sign in to your GSTR Pro account
+                    Sign in to your GSTDesk account
                 </p>
             </div>
 

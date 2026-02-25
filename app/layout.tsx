@@ -10,9 +10,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "GSTR Pro — Indian GST Compliance Made Simple",
+  title: "GSTDesk – Smart GST Filing for Sellers",
   description:
-    "Automate your GSTR-1 filing. Upload Amazon & Flipkart sales reports, validate GST data, and generate portal-ready JSON & Excel files in minutes.",
+    "GSTDesk helps Indian e-commerce sellers automate GST compliance, reconcile returns, and export to Tally effortlessly.",
   keywords: ["GST", "GSTR-1", "GST compliance", "Amazon seller", "Flipkart seller", "e-commerce GST"],
 };
 

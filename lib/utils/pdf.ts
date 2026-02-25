@@ -23,7 +23,7 @@ export async function generateInvoicePDF(data: InvoiceData): Promise<Buffer> {
         doc.on('error', reject);
 
         // Header
-        doc.fillColor('#6366f1').fontSize(24).text('GSTR Pro', { align: 'right' });
+        doc.fillColor('#6366f1').fontSize(24).text('GSTDesk', { align: 'right' });
         doc.fillColor('#444').fontSize(10).text('Premium GST Compliance SaaS', { align: 'right' });
         doc.moveDown();
 
@@ -83,7 +83,7 @@ export async function generateInvoicePDF(data: InvoiceData): Promise<Buffer> {
         // Note
         doc.fontSize(10).fillColor('#666').font('Helvetica');
         doc.text('This is a computer-generated receipt and does not require a physical signature.', 50, 500, { align: 'center', width: 500 });
-        doc.text('Thank you for choosing GSTR Pro!', 50, 515, { align: 'center', width: 500 });
+        doc.text('Thank you for choosing GSTDesk!', 50, 515, { align: 'center', width: 500 });
 
         doc.end();
     });
