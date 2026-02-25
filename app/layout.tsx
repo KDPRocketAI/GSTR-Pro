@@ -10,11 +10,14 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "GSTDesk – Smart GST Filing for Sellers",
-  description:
-    "GSTDesk helps Indian e-commerce sellers automate GST compliance, reconcile returns, and export to Tally effortlessly.",
+  title: "GSTDesk | Smart GST Filing for Sellers",
+  description: "GSTDesk helps Indian e-commerce sellers automate GST compliance, reconcile returns, and export to Tally effortlessly.",
   keywords: ["GST", "GSTR-1", "GST compliance", "Amazon seller", "Flipkart seller", "e-commerce GST"],
+  verification: {
+    google: "googleff17a6ee2e56904d",
+  },
 };
+
 
 export default function RootLayout({
   children,

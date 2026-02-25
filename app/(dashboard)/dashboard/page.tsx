@@ -37,6 +37,7 @@ export default function DashboardPage() {
     return (
         <div className="animate-fade-in">
             {/* Header */}
+            google-site-verification: googleff17a6ee2e56904d.html
             <div style={{ marginBottom: '36px' }}>
                 <h1 style={{ fontSize: '1.8rem', fontWeight: 800, marginBottom: '6px' }}>
                     Welcome back, <span className="gradient-text">{name}</span> 👋
